@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Aplikasi_Sederhana_V2</string>
+    <string name="halaman_menu_utama">Halaman Menu!</string>
+
+    <string name="activity1">
+        Aktivitas adalah titik masuk untuk berinteraksi dengan pengguna. Ini mewakili satu layar dengan antarmuka pengguna. Misalnya, aplikasi email mungkin memiliki satu aktivitas yang menampilkan daftar email baru, aktivitas lain untuk menulis email, dan aktivitas satunya lagi untuk membaca email. Walaupun semua aktivitas bekerja sama untuk membentuk pengalaman pengguna yang kohesif dalam aplikasi email, masing-masing tidak saling bergantung. Karenanya, aplikasi berbeda bisa memulai salah satu aktivitas ini (jika aplikasi email mengizinkannya)
+    </string>
+    <string name="activity2">
+        Layanan adalah titik masuk serbaguna untuk menjaga aplikasi tetap berjalan di latar belakang bagi semua jenis alasan. Ini adalah komponen yang berjalan di latar belakang untuk melakukan operasi yang berjalan lama atau untuk melakukan pekerjaan bagi proses jarak jauh. Layanan tidak menyediakan antarmuka pengguna. Misalnya, sebuah layanan bisa memutar musik di latar belakang sementara pengguna berada dalam aplikasi lain, atau layanan bisa menarik data lewat jaringan tanpa memblokir interaksi pengguna dengan aktivitas. Komponen lain, seperti aktivitas, bisa memulai layanan dan membiarkannya berjalan atau mengikat layanan untuk berinteraksi dengannya
+    </string>
+    <string name="activity3">
+        Adalah komponen yang memungkinkan system menyampaikan kejadian di luar alur pengguna regular, menjadikan aplikasi tersebut dapat merespons pengumuman siaran seluruh sistem. Oleh karena penerima siaran adalah entri yang didefinisikan dengan baik ke dalam aplikasi, sistem dapat mengirimkan siaran meskipun ke aplikasi yang saat ini tidak berjalan. Jadi, misalnya, suatu aplikasi dapat menjadwalkan alarm untuk mengirimkan notifikasi agar pengguna tahu tentang acara yang akan datang... dan dengan mengirimkan alarm tersebut ke Penerima Siaran aplikasi, aplikasi tersebut tidak perlu untuk tetap berjalan hingga alarm mati.
+    </string>
+    <string name="activity4">
+        Penyedia materi mengelola set data aplikasi secara bersama-sama, yang dapat Anda simpan di sistem file, di database SQLite, di web, atau di lokasi penyimpanan persisten lain yang dapat diakses aplikasi Anda. Melalui penyedia materi, aplikasi lain bisa melakukan kueri atau memodifikasi data jika penyedia materi mengizinkannya. Misalnya, sistem Android menyediakan penyedia materi yang mengelola informasi kontak pengguna.
+    </string>
+    <string name="activity5">
+        Adalah komponen interaktif dalam antarmuka pengguna aplikasi Anda. Android menyediakan aneka ragam kontrol yang bisa Anda gunakan dalam UI, seperti tombol, bidang teks, bilah pencarian, kotak centang, tombol zoom, tombol toggle, dan masih banyak lagi.
+    </string>
+
+    <string name="link1"><a href= "https://developer.android.com/guide/components/activities/?hl=id git" > Link </a>
+    </string>
+    <string name="link2"><a href= "https://developer.android.com/guide/components/services?hl=id "> Link</a>
+    </string>
+    <string name="link3"><a href= "https://bit.ly/31n7pxc "> Link </a>
+    </string>
+    <string name="link4"><a href= "https://developer.android.com/guide/topics/providers/content-providers?hl=in "> Link </a>
+    </string>
+    <string name="link5"><a href= "https://developer.android.com/guide/topics/ui/controls.html "> Link </a>
+    </string>
+
+</resources>
